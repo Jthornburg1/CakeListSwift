@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D289DA911E3843B200952FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289DA901E3843B200952FE8 /* AppDelegate.swift */; };
+		D289DA931E3843B200952FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289DA921E3843B200952FE8 /* ViewController.swift */; };
+		D289DA961E3843B200952FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D289DA941E3843B200952FE8 /* Main.storyboard */; };
+		D289DA981E3843B200952FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D289DA971E3843B200952FE8 /* Assets.xcassets */; };
+		D289DA9B1E3843B200952FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D289DA991E3843B200952FE8 /* LaunchScreen.storyboard */; };
+		D289DAA61E3843B200952FE8 /* WaracleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289DAA51E3843B200952FE8 /* WaracleTestTests.swift */; };
+		D289DAB11E3843B200952FE8 /* WaracleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289DAB01E3843B200952FE8 /* WaracleTestUITests.swift */; };
+		D289DAC01E38442400952FE8 /* CakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289DABE1E38442400952FE8 /* CakeCell.swift */; };
+		D289DAC11E38442400952FE8 /* CakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D289DABF1E38442400952FE8 /* CakeCell.xib */; };
+		D289DAC41E38496E00952FE8 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289DAC31E38496E00952FE8 /* Cake.swift */; };
+		D2BFB40C1E3D861600185CC0 /* CakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFB40B1E3D861600185CC0 /* CakeController.swift */; };
+		D2BFB40F1E3D87CE00185CC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFB40E1E3D87CE00185CC0 /* Constants.swift */; };
+		D2BFB4121E3D965A00185CC0 /* ImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFB4111E3D965A00185CC0 /* ImageView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D289DAA21E3843B200952FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D289DA851E3843B200952FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D289DA8C1E3843B200952FE8;
+			remoteInfo = WaracleTest;
+		};
+		D289DAAD1E3843B200952FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D289DA851E3843B200952FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D289DA8C1E3843B200952FE8;
+			remoteInfo = WaracleTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D289DA8D1E3843B200952FE8 /* WaracleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaracleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D289DA901E3843B200952FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D289DA921E3843B200952FE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D289DA951E3843B200952FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D289DA971E3843B200952FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D289DA9A1E3843B200952FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D289DA9C1E3843B200952FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D289DAA11E3843B200952FE8 /* WaracleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaracleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D289DAA51E3843B200952FE8 /* WaracleTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaracleTestTests.swift; sourceTree = "<group>"; };
+		D289DAA71E3843B200952FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D289DAAC1E3843B200952FE8 /* WaracleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaracleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D289DAB01E3843B200952FE8 /* WaracleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaracleTestUITests.swift; sourceTree = "<group>"; };
+		D289DAB21E3843B200952FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D289DABE1E38442400952FE8 /* CakeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeCell.swift; sourceTree = "<group>"; };
+		D289DABF1E38442400952FE8 /* CakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CakeCell.xib; sourceTree = "<group>"; };
+		D289DAC31E38496E00952FE8 /* Cake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		D2BFB40B1E3D861600185CC0 /* CakeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeController.swift; sourceTree = "<group>"; };
+		D2BFB40E1E3D87CE00185CC0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D2BFB4111E3D965A00185CC0 /* ImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289DA8A1E3843B200952FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289DA9E1E3843B200952FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289DAA91E3843B200952FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D289DA841E3843B200952FE8 = {
+			isa = PBXGroup;
+			children = (
+				D289DA8F1E3843B200952FE8 /* WaracleTest */,
+				D289DAA41E3843B200952FE8 /* WaracleTestTests */,
+				D289DAAF1E3843B200952FE8 /* WaracleTestUITests */,
+				D289DA8E1E3843B200952FE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D289DA8E1E3843B200952FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D289DA8D1E3843B200952FE8 /* WaracleTest.app */,
+				D289DAA11E3843B200952FE8 /* WaracleTestTests.xctest */,
+				D289DAAC1E3843B200952FE8 /* WaracleTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D289DA8F1E3843B200952FE8 /* WaracleTest */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFB4101E3D963A00185CC0 /* Extensions */,
+				D2BFB40D1E3D87B600185CC0 /* Utilities */,
+				D2BFB40A1E3D85E300185CC0 /* API */,
+				D2BFB4091E3D850F00185CC0 /* Cells */,
+				D2BFB4081E3D84B900185CC0 /* ViewControllers */,
+				D289DAC21E38494D00952FE8 /* Models */,
+				D289DA901E3843B200952FE8 /* AppDelegate.swift */,
+				D289DA941E3843B200952FE8 /* Main.storyboard */,
+				D289DA971E3843B200952FE8 /* Assets.xcassets */,
+				D289DA991E3843B200952FE8 /* LaunchScreen.storyboard */,
+				D289DA9C1E3843B200952FE8 /* Info.plist */,
+			);
+			path = WaracleTest;
+			sourceTree = "<group>";
+		};
+		D289DAA41E3843B200952FE8 /* WaracleTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D289DAA51E3843B200952FE8 /* WaracleTestTests.swift */,
+				D289DAA71E3843B200952FE8 /* Info.plist */,
+			);
+			path = WaracleTestTests;
+			sourceTree = "<group>";
+		};
+		D289DAAF1E3843B200952FE8 /* WaracleTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D289DAB01E3843B200952FE8 /* WaracleTestUITests.swift */,
+				D289DAB21E3843B200952FE8 /* Info.plist */,
+			);
+			path = WaracleTestUITests;
+			sourceTree = "<group>";
+		};
+		D289DAC21E38494D00952FE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D289DAC31E38496E00952FE8 /* Cake.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D2BFB4081E3D84B900185CC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D289DA921E3843B200952FE8 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D2BFB4091E3D850F00185CC0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D289DABE1E38442400952FE8 /* CakeCell.swift */,
+				D289DABF1E38442400952FE8 /* CakeCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D2BFB40A1E3D85E300185CC0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFB40B1E3D861600185CC0 /* CakeController.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D2BFB40D1E3D87B600185CC0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFB40E1E3D87CE00185CC0 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D2BFB4101E3D963A00185CC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFB4111E3D965A00185CC0 /* ImageView+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D289DA8C1E3843B200952FE8 /* WaracleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D289DAB51E3843B200952FE8 /* Build configuration list for PBXNativeTarget "WaracleTest" */;
+			buildPhases = (
+				D289DA891E3843B200952FE8 /* Sources */,
+				D289DA8A1E3843B200952FE8 /* Frameworks */,
+				D289DA8B1E3843B200952FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaracleTest;
+			productName = WaracleTest;
+			productReference = D289DA8D1E3843B200952FE8 /* WaracleTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D289DAA01E3843B200952FE8 /* WaracleTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D289DAB81E3843B200952FE8 /* Build configuration list for PBXNativeTarget "WaracleTestTests" */;
+			buildPhases = (
+				D289DA9D1E3843B200952FE8 /* Sources */,
+				D289DA9E1E3843B200952FE8 /* Frameworks */,
+				D289DA9F1E3843B200952FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D289DAA31E3843B200952FE8 /* PBXTargetDependency */,
+			);
+			name = WaracleTestTests;
+			productName = WaracleTestTests;
+			productReference = D289DAA11E3843B200952FE8 /* WaracleTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D289DAAB1E3843B200952FE8 /* WaracleTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D289DABB1E3843B200952FE8 /* Build configuration list for PBXNativeTarget "WaracleTestUITests" */;
+			buildPhases = (
+				D289DAA81E3843B200952FE8 /* Sources */,
+				D289DAA91E3843B200952FE8 /* Frameworks */,
+				D289DAAA1E3843B200952FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D289DAAE1E3843B200952FE8 /* PBXTargetDependency */,
+			);
+			name = WaracleTestUITests;
+			productName = WaracleTestUITests;
+			productReference = D289DAAC1E3843B200952FE8 /* WaracleTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D289DA851E3843B200952FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "jonathan thornburg";
+				TargetAttributes = {
+					D289DA8C1E3843B200952FE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5XL94NV2G5;
+						ProvisioningStyle = Automatic;
+					};
+					D289DAA01E3843B200952FE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5XL94NV2G5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D289DA8C1E3843B200952FE8;
+					};
+					D289DAAB1E3843B200952FE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5XL94NV2G5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D289DA8C1E3843B200952FE8;
+					};
+				};
+			};
+			buildConfigurationList = D289DA881E3843B200952FE8 /* Build configuration list for PBXProject "WaracleTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D289DA841E3843B200952FE8;
+			productRefGroup = D289DA8E1E3843B200952FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D289DA8C1E3843B200952FE8 /* WaracleTest */,
+				D289DAA01E3843B200952FE8 /* WaracleTestTests */,
+				D289DAAB1E3843B200952FE8 /* WaracleTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D289DA8B1E3843B200952FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D289DA9B1E3843B200952FE8 /* LaunchScreen.storyboard in Resources */,
+				D289DAC11E38442400952FE8 /* CakeCell.xib in Resources */,
+				D289DA981E3843B200952FE8 /* Assets.xcassets in Resources */,
+				D289DA961E3843B200952FE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289DA9F1E3843B200952FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289DAAA1E3843B200952FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D289DA891E3843B200952FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D289DA931E3843B200952FE8 /* ViewController.swift in Sources */,
+				D289DAC41E38496E00952FE8 /* Cake.swift in Sources */,
+				D289DA911E3843B200952FE8 /* AppDelegate.swift in Sources */,
+				D2BFB4121E3D965A00185CC0 /* ImageView+Extensions.swift in Sources */,
+				D289DAC01E38442400952FE8 /* CakeCell.swift in Sources */,
+				D2BFB40C1E3D861600185CC0 /* CakeController.swift in Sources */,
+				D2BFB40F1E3D87CE00185CC0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289DA9D1E3843B200952FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D289DAA61E3843B200952FE8 /* WaracleTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289DAA81E3843B200952FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D289DAB11E3843B200952FE8 /* WaracleTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D289DAA31E3843B200952FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D289DA8C1E3843B200952FE8 /* WaracleTest */;
+			targetProxy = D289DAA21E3843B200952FE8 /* PBXContainerItemProxy */;
+		};
+		D289DAAE1E3843B200952FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D289DA8C1E3843B200952FE8 /* WaracleTest */;
+			targetProxy = D289DAAD1E3843B200952FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D289DA941E3843B200952FE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D289DA951E3843B200952FE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D289DA991E3843B200952FE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D289DA9A1E3843B200952FE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D289DAB31E3843B200952FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D289DAB41E3843B200952FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D289DAB61E3843B200952FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
+				INFOPLIST_FILE = WaracleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaracleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D289DAB71E3843B200952FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
+				INFOPLIST_FILE = WaracleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaracleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D289DAB91E3843B200952FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
+				INFOPLIST_FILE = WaracleTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaracleTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaracleTest.app/WaracleTest";
+			};
+			name = Debug;
+		};
+		D289DABA1E3843B200952FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
+				INFOPLIST_FILE = WaracleTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaracleTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaracleTest.app/WaracleTest";
+			};
+			name = Release;
+		};
+		D289DABC1E3843B200952FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
+				INFOPLIST_FILE = WaracleTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaracleTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaracleTest;
+			};
+			name = Debug;
+		};
+		D289DABD1E3843B200952FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
+				INFOPLIST_FILE = WaracleTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaracleTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaracleTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D289DA881E3843B200952FE8 /* Build configuration list for PBXProject "WaracleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D289DAB31E3843B200952FE8 /* Debug */,
+				D289DAB41E3843B200952FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D289DAB51E3843B200952FE8 /* Build configuration list for PBXNativeTarget "WaracleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D289DAB61E3843B200952FE8 /* Debug */,
+				D289DAB71E3843B200952FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D289DAB81E3843B200952FE8 /* Build configuration list for PBXNativeTarget "WaracleTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D289DAB91E3843B200952FE8 /* Debug */,
+				D289DABA1E3843B200952FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D289DABB1E3843B200952FE8 /* Build configuration list for PBXNativeTarget "WaracleTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D289DABC1E3843B200952FE8 /* Debug */,
+				D289DABD1E3843B200952FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D289DA851E3843B200952FE8 /* Project object */;
+}
